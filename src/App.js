@@ -1,24 +1,22 @@
 import './App.css';
 import Nav from './Components/Nav'
-import Typical from 'react-typical'
+import Title from './Components/Title'
 import 'semantic-ui-css/semantic.min.css'
+import { Container, Divider } from 'semantic-ui-react'
 
 
 function App() {
   return (
     <div className="App">
       <Nav/>
-      <h1>Maliq Taylor</h1>
-      <Typical
-        loop={Infinity}
-        steps={[
-          'Developer 🖥 ', 2000,
-          'Writer 📖 ', 2000,
-          'Voyager 🚀 ', 2000,
-          'New Yorker 🗽', 2000
-        ]}
+
+      <Divider
+      className='divider'
+      section= 'true'
+      hidden='true'
       />
 
+      <Title /> 
     </div>
   );
 }

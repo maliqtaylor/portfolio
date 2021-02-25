@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+
+.divider{
+  min-height: 20vh;
+}
+
+.title{
+  font-family: 'Jura', sans-serif;  
+}
+
+.name{
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
