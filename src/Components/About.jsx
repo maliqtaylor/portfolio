@@ -9,8 +9,10 @@ const description = [
 
 function About() {
   return (
-    <div className='about'>
-      <Card>
+    <div className='about' id='about'>
+      <Card
+        centered={true}
+      >
         <Card.Content header='About Me' />
         <Card.Content description={description} />
       </Card>
