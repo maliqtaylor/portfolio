@@ -3,7 +3,7 @@
 }
 
 .divider{
-  min-height: 20vh;
+  min-height: 35vh;
 }
 
 .title{
@@ -12,6 +12,10 @@
 
 .name{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 45px;
   padding-bottom: 10px;
+}
+
+.about{
+  padding-top: 5vh;
 }

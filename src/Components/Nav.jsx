@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'semantic-ui-css/semantic.min.css'
-import { Menu, Segment } from 'semantic-ui-react'
+import { Menu } from 'semantic-ui-react'
 
 
 
@@ -15,15 +15,17 @@ class Nav extends Component {
     const { activeItem } = this.state
 
     return (
-      <div>
+      <div className='nav'>
         <Menu 
-        pointing 
-        secondary
-        color='pink'
-        compact='true'
-        size='small'
+          fluid widths={5}
+          pointing
+          secondary
+          color='blue'
+          size='small'
+          compact={true}
+          fixed='top'
         >
-          
+
           <Menu.Item
             name='home'
             active={activeItem === 'home'}

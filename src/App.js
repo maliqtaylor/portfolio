@@ -1,8 +1,9 @@
 import './App.css';
 import Nav from './Components/Nav'
 import Title from './Components/Title'
+import About from './Components/About';
 import 'semantic-ui-css/semantic.min.css'
-import { Container, Divider } from 'semantic-ui-react'
+import { Divider } from 'semantic-ui-react'
 
 
 function App() {
@@ -12,11 +13,19 @@ function App() {
 
       <Divider
       className='divider'
-      section= 'true'
-      hidden='true'
+      section= {true}
+      hidden= {true}
       />
 
       <Title /> 
+
+      <Divider
+        className='divider'
+        section={true}
+        hidden={true}
+      />
+
+      <About/>
     </div>
   );
 }
