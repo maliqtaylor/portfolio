@@ -1,26 +1,44 @@
 import './App.css';
+import React, { Component } from 'react';
 import Nav from './Components/Nav'
-import Title from './Components/Title'
 import Sidebar from './Components/Sidebar'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import { Route } from "react-router-dom";
 import 'semantic-ui-css/semantic.min.css'
-import { Divider } from 'semantic-ui-react'
 
-function App() {
-  return (
-    <div className="App">
-      <Nav />
-      <Sidebar pageWrapId={"page-wrap"} outerContainerId={"App"}/>
-      <div id='page-wrap'>
-        <Divider
-          className='divider'
-          section={true}
-          hidden={true}
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Nav 
+          path= {this.props.history.location.pathname}
         />
 
-        <Title />
+        <Sidebar
+          pageWrapId={"page-wrap"}
+          outerContainerId={"App"}
+        />
+
+        <Route
+          exact
+          path="/"
+          render={({ history }) => (
+            <Home history={history} />
+          )}
+        />
+
+        <Route
+          exact
+          path="/about"
+          render={({ history }) => (
+            <About history={history} />
+          )}
+        />
+
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;

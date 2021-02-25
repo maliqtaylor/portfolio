@@ -24,6 +24,10 @@
   display: none;
 }
 
+.hide{
+  color: white;
+}
+
 #page-wrap {
   text-align: center;
 
@@ -37,14 +41,14 @@
 
   /* Our sidebar item styling */
   text-decoration: none;
-  margin-bottom: 10px;
-  color: #d1d1d1;
+  margin-bottom: 25px;
+  color: white;
   transition: color 0.2s;
 }
 
 /* Change color on hover */
 .bm-item:hover {
-  color: white;
+  color: rgb(71, 154, 236);
 }
 
 /* The rest copied directly from react-burger-menu docs */
@@ -71,24 +75,24 @@
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: white;
 }
 
 /* General sidebar styles */
 .bm-menu {
-  background: #373a47;
+  background: #747783;
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
+  fill: #747783;
 }
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: white;
 }
 
 /* Styling of overlay */

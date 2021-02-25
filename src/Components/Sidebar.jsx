@@ -3,27 +3,30 @@ import React, { Component } from 'react';
 import { bubble as Menu } from 'react-burger-menu'
 
 class Sidebar extends Component {
-  render(props) {
-    // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
+
+  render() {
     return (
       <div className='sidenav'>
-        <Menu {...props}
-        >
+        <Menu disableAutoFocus>
           <a className="menu-item" href="/">
             Home
-      </a>
+          </a>
 
-          <a className="menu-item" href="/">
-            Burgers
-      </a>
+          <a className="menu-item" href="/about">
+            About Me
+          </a>
 
-          <a className="menu-item" href="/">
-            Pizzas
-      </a>
+          <a className="menu-item" href="/projects">
+            Projects
+          </a>
 
-          <a className="menu-item" href="/">
-            Desserts
-      </a>
+          <a className="menu-item" href="/socials">
+            Socials
+          </a>
+
+          <a className="menu-item" href="/contact">
+            Contact
+          </a>
         </Menu>
       </div>
     );
