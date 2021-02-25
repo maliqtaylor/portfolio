@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Components/Nav'
+import Typical from 'react-typical'
+import 'semantic-ui-css/semantic.min.css'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <h1>Maliq Taylor</h1>
+      <Typical
+        loop={Infinity}
+        steps={[
+          'Developer 🖥 ', 2000,
+          'Writer 📖 ', 2000,
+          'Voyager 🚀 ', 2000,
+          'New Yorker 🗽', 2000
+        ]}
+      />
+
     </div>
   );
 }
