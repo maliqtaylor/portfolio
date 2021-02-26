@@ -13,7 +13,7 @@ class Footer extends Component {
         borderless
         secondary
         fixed='bottom'
-        fluid widths={2}
+        fluid widths={6}
       >
         <Menu.Item disabled={left === undefined}>
           <Link
@@ -28,6 +28,38 @@ class Footer extends Component {
               disabled={left === undefined}
             />
           </Link>
+        </Menu.Item>
+
+        <Menu.Item>
+          <Icon
+            className='pointer'
+            name='address card outline'
+            size='large'
+          />
+        </Menu.Item>
+
+        <Menu.Item>
+          <Icon
+            className='pointer'
+            name='github'
+            size='large'
+          />
+        </Menu.Item>
+
+        <Menu.Item>
+          <Icon
+            className='pointer'
+            name='linkedin'
+            size='large'
+          />
+        </Menu.Item>
+
+        <Menu.Item>
+          <Icon
+            className='pointer'
+            name='envelope open outline'
+            size='large'
+          />
         </Menu.Item>
 
         <Menu.Item disabled={left === undefined}>
