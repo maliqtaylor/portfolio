@@ -4,17 +4,17 @@ import Footer from '../Components/Footer'
 
 function Home() {
   return (
-    <div className='page'>
+    <div className='home'>
       <div id='page-wrap'>
 
         <Divider
-          className='divider'
+          className='divider-h'
           section={true}
           hidden={true}
         />
 
         <Title />
-        <Footer right='about'/>
+        <Footer right='/about'/>
 
       </div>
     </div>
