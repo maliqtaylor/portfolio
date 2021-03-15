@@ -8,19 +8,15 @@ function About() {
   return (
     <div className='about'>
       <div id='page-wrap'>
-        <Divider
-          className='divider-a'
-          section={true}
-          hidden={true}
-        />
 
-        <Image
-          src={headshot}
-          size='small'
-          verticalAlign='middle'
-          circular
-          className='headshot'
-        />
+        <div className='headshot'>
+          <Image
+            src={headshot}
+            size='small'
+            verticalAlign='middle'
+            circular
+          />
+        </div>
 
         <Card className='aboutCard'>
 
