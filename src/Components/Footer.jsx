@@ -14,6 +14,7 @@ class Footer extends Component {
         secondary
         fixed='bottom'
         fluid widths={6}
+        className='footer'
       >
         <Menu.Item disabled={left === undefined}>
           <Link

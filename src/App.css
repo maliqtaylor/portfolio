@@ -1,13 +1,27 @@
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+ box-sizing: inherit;
+}
+
+h5{
+  font-family: 'Jura', sans-serif;  
+}
+
+:root {
+ font-size: 85.5%
+}
+
 .App {
   text-align: center;
 }
 
 .divider-h{
-  min-height: 35vh;
+  min-height: 40vh;
 }
 
 .divider-a{
-  min-height: 20vh;
+  min-height: 3vh;
 }
 
 .title{
@@ -22,6 +36,31 @@
 
 .sidenav{
   display: none;
+}
+
+.cardTitle{
+  padding-top: 1vh;
+}
+
+.aboutCard{
+  width: 65vw;
+  height: 25vh;
+  margin-left:auto; 
+  margin-right: auto;
+  margin-top: 10px;
+  overflow-y: scroll;
+  font-family: 'Jura', sans-serif;  
+}
+
+.text{
+  text-align: left;
+  padding-left: 1.5vw;
+  padding-bottom: 1vh;
+  padding-top: 2vh;
+}
+
+.foot{
+  z-index: 8;
 }
 
 #page-wrap {
@@ -96,7 +135,7 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
    .nav{
      display: none;
    }
@@ -106,6 +145,46 @@
    }
 }
 
+@media screen and (min-height: 1250px) {
+  .divider-a{
+    min-height: 5vh;
+  }
+
+  :root {
+    font-size: 110.5%
+  }
+
+  .headshot{
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .aboutCard{
+    width: 90vw;
+  }
+}
+
 .pointer{
   color: black !important;
+}
+
+.aboutCard::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.aboutCard::-webkit-scrollbar
+{
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+.aboutCard::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
 }
