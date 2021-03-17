@@ -50,6 +50,8 @@ function About() {
                 size='tiny'
                 verticalAlign='middle'
               />
+
+              <p>Javascrpt</p>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -59,6 +61,8 @@ function About() {
                 verticalAlign='middle'
                 circular
               />
+
+              <p>Python</p>
             </Carousel.Item>
 
             <Carousel.Item>
@@ -68,6 +72,8 @@ function About() {
                 verticalAlign='middle'
 
               />
+
+              <p>React</p>
             </Carousel.Item>
 
           </Carousel>
