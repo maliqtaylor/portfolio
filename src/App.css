@@ -14,7 +14,7 @@ h3{
 
 .title{
   font-family: 'Jura', sans-serif; 
-  margin-top: 45vh;
+  margin-top: 47vh;
 }
 
 .name{
@@ -43,9 +43,8 @@ h3{
   font-family: 'Jura', sans-serif;  
 }
 
-.carousel{
-  margin-top: 4vh;
-  margin-bottom: 5vh;
+.skills{
+  margin-top: 3.4vh;
 }
 
 .text{
@@ -58,6 +57,11 @@ h3{
 
 .pointer{
   color: black !important;
+}
+
+.skillName{
+  margin-top: 6px;
+  font-family: 'Jura', sans-serif;  
 }
 
 #page-wrap {
@@ -132,10 +136,6 @@ h3{
 }
 
 @media screen and (min-height: 1250px) {
-  .divider-a{
-    min-height: 5vh;
-  }
-
   :root {
     font-size: 120.5%
   }
@@ -143,6 +143,10 @@ h3{
   .headshot{
     margin-bottom: 5vh;
   }
+
+   .skills{
+     margin-top: 5vh;
+   }
 }
 
 @media screen and (max-width: 1050px) {
@@ -153,19 +157,16 @@ h3{
    .sidenav{
      display: block;
    }
-}
 
-@media screen and (max-width: 785px) {
-  .aboutCard{
-    width: 90vw;
   }
-}
+
+  @media screen and (max-width: 1400px) {
+    .aboutCard{
+      width: 90vw;
+    }
+  }
 
 @media screen and (max-height: 570px) {
-  .footer{
-    display: none;
-  }
-
   .nav{
     display: none;
   }
@@ -175,13 +176,19 @@ h3{
    }
 
    .aboutCard{
-     margin-top: 15vh;
+     margin-top: 13vh;
+     width: 98vw;
+     height: 45vh;
    }
 }
 
-@media screen and (max-height: 620px) {
-  .footer{
-    display: none;
+@media screen and (max-height: 670px) {
+  .skills{
+    margin-top: 1vh;
+  }
+
+  .skillName{
+    margin-top: 2.5px;
   }
 }
 
@@ -189,6 +196,12 @@ h3{
   .name{
     font-size:2em
   }
+}
+
+@media screen and (max-width: 280px) {
+  .aboutCard{
+     margin-top: 15vh;
+   }
 }
 
 .aboutCard::-webkit-scrollbar-track {
