@@ -41,19 +41,23 @@ class Footer extends Component {
           </Menu.Item>
 
           <Menu.Item>
-            <Icon
-              className='pointer'
-              name='github'
-              size='large'
-            />
+            <a rel='noreferrer' target="_blank" href='https://github.com/maliqtaylor'>
+              <Icon
+                className='pointer'
+                name='github'
+                size='large'
+              />
+            </a>
           </Menu.Item>
 
           <Menu.Item>
-            <Icon
-              className='pointer'
-              name='linkedin'
-              size='large'
-            />
+            <a rel='noreferrer' target="_blank" href='https://www.linkedin.com/in/maliqtaylor/'>
+              <Icon
+                className='pointer'
+                name='linkedin'
+                size='large'
+              />
+            </a>
           </Menu.Item>
 
           <Menu.Item>
