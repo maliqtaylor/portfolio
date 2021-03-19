@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 class Nav extends Component {
   render() {
+    
     const { path } = this.props
 
     return (
@@ -24,7 +25,7 @@ class Nav extends Component {
           </Menu.Item>
 
           <Menu.Item active={path === '/about'}>
-            <Link to="/about">About Me</Link>
+            <Link to="/about">About</Link>
           </Menu.Item>
 
           <Menu.Item active={path === '/projects'}>
@@ -39,7 +40,6 @@ class Nav extends Component {
             <Link to='/contact'>Contact</Link>
           </Menu.Item>
          
-
         </Menu>
       </div>
     );

@@ -8,6 +8,14 @@ h3{
   font-family: 'Jura', sans-serif;  
 }
 
+a:hover{
+  text-decoration: none;
+}
+
+a{
+  font-family: 'Jura', sans-serif; 
+}
+
 .App {
   text-align: center;
 }
@@ -52,11 +60,15 @@ h3{
   padding-left: .8vw;
   padding-bottom: 1vh;
   padding-top: 5vh;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .pointer{
-  color: black !important;
+  color: black;
+}
+
+.pointer:hover{
+  color: dodgerblue;
 }
 
 .skillName{
@@ -149,39 +161,6 @@ h3{
    }
 }
 
-@media screen and (max-width: 1050px) {
-   .nav{
-     display: none;
-   }
-
-   .sidenav{
-     display: block;
-   }
-
-  }
-
-  @media screen and (max-width: 1400px) {
-    .aboutCard{
-      width: 90vw;
-    }
-  }
-
-@media screen and (max-height: 570px) {
-  .nav{
-    display: none;
-  }
-
-  .sidenav{
-     display: block;
-   }
-
-   .aboutCard{
-     margin-top: 13vh;
-     width: 98vw;
-     height: 45vh;
-   }
-}
-
 @media screen and (max-height: 670px) {
   .skills{
     margin-top: 1vh;
@@ -189,6 +168,53 @@ h3{
 
   .skillName{
     margin-top: 2.5px;
+  }
+}
+
+@media screen and (max-height: 570px) {
+  .nav{
+    display: none;
+  }
+
+  .sidenav{
+    display: block;
+  }
+
+  .aboutCard{
+    margin-top: 13vh;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .aboutCard{
+    height: 38vh;
+    width: 98vw;
+  }
+}
+
+@media screen and (max-height: 465px) {
+  .footer{
+    display: none;
+  }
+
+  .aboutCard{
+    margin-top: 15vh;
+  }
+}
+
+ @media screen and (max-width: 1400px) {
+  .aboutCard{
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .nav{
+    display: none;
+  }
+
+  .sidenav{
+    display: block;
   }
 }
 
@@ -200,8 +226,8 @@ h3{
 
 @media screen and (max-width: 280px) {
   .aboutCard{
-     margin-top: 15vh;
-   }
+    margin-top: 15vh;
+  }
 }
 
 .aboutCard::-webkit-scrollbar-track {

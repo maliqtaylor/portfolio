@@ -9,6 +9,7 @@ import django from '../images/django.png'
 import css from '../images/css.png'
 import html from '../images/html.png'
 import postgres from '../images/postgres.png'
+import git from '../images/git.png'
 
 let skillData = [
   { icon: js, name: 'Javascript' },
@@ -16,9 +17,10 @@ let skillData = [
   { icon: node, name: 'Node.js' },
   { icon: react, name: 'React' },
   { icon: django, name: 'Django' },
-  { icon: css, name: 'Css' },
-  { icon: html, name: 'Html' },
-  { icon: postgres, name:'PostgreSQL' }
+  { icon: css, name: 'Css3' },
+  { icon: html, name: 'Html5' },
+  { icon: postgres, name:'PostgreSQL' },
+  { icon: git, name: 'Git' }
 ]
 
 function Skills() {

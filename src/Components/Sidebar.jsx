@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import { bubble as Menu } from 'react-burger-menu'
 
 class Sidebar extends Component {
@@ -13,7 +12,7 @@ class Sidebar extends Component {
           </a>
 
           <a className="menu-item" href="/about">
-            About Me
+            About
           </a>
 
           <a className="menu-item" href="/projects">
