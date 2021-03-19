@@ -1,12 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import Nav from './Components/Nav'
 import Sidebar from './Components/Sidebar'
 import Home from './Pages/Home'
 import About from './Pages/About'
-import { Route } from "react-router-dom";
+import Projects from './Pages/Projects'
+import { Route } from "react-router-dom"
 import 'semantic-ui-css/semantic.min.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 
 
 class App extends Component {
@@ -35,6 +36,14 @@ class App extends Component {
           path="/about"
           render={({ history }) => (
             <About history={history} />
+          )}
+        />
+
+        <Route
+          exact
+          path="/projects"
+          render={({ history }) => (
+            <Projects history={history} />
           )}
         />
 

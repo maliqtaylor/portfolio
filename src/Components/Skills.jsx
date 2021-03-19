@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { Image } from 'semantic-ui-react'
 import Carousel from 'react-bootstrap/Carousel'
 import js from '../images/js.png'

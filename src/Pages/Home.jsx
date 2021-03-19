@@ -7,11 +7,11 @@ function Home() {
       <div id='page-wrap'>
 
         <Title />
-        <Footer right='/about'/>
+        <Footer right='/about' />
 
       </div>
     </div>
-  );
+  )
 }
 
 export default Home;

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { Icon, Menu } from 'semantic-ui-react'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 
 class Footer extends Component {
@@ -78,7 +78,6 @@ class Footer extends Component {
               />
             </Link>
           </Menu.Item>
-
         </Menu>
       </div>
     );

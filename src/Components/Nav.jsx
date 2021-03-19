@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import 'semantic-ui-css/semantic.min.css'
 import { Menu } from 'semantic-ui-react'
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 class Nav extends Component {
   render() {

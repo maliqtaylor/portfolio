@@ -5,7 +5,6 @@ import Card from 'react-bootstrap/Card'
 
 function AboutCard() {
   return (
-
     <Card className='aboutCard'>
 
       <Card.Body>
