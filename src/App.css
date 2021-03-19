@@ -51,6 +51,16 @@ a{
   font-family: 'Jura', sans-serif;  
 }
 
+.projectCard{
+  width: 95vw;
+  height: 80vh;
+  margin-left:auto; 
+  margin-right: auto;
+  margin-top: 10vh;
+  overflow-y: scroll;
+  font-family: 'Jura', sans-serif;  
+}
+
 .skills{
   margin-top: 3.4vh;
 }
@@ -197,8 +207,8 @@ a{
     display: none;
   }
 
-  .aboutCard{
-    margin-top: 15vh;
+  .aboutCard, .projectCard{
+    margin-top: 16vh;
   }
 }
 
@@ -243,6 +253,25 @@ a{
 }
 
 .aboutCard::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.projectCard::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+.projectCard::-webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+
+.projectCard::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
   box-shadow: inset 0 0 6px rgba(0,0,0,.3);
