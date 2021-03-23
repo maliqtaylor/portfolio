@@ -4,7 +4,7 @@
  box-sizing: inherit;
 }
 
-h3{
+h3, h1{
   font-family: 'Jura', sans-serif;  
 }
 
@@ -167,10 +167,6 @@ a{
 }
 
 @media screen and (min-height: 1250px) {
-  :root {
-    font-size: 120.5%
-  }
-
   .headshot{
     margin-bottom: 5vh;
   }
@@ -206,8 +202,14 @@ a{
 
 @media screen and (max-height: 630px) {
   .aboutCard{
-    height: 38vh;
+    height: 40vh;
     width: 98vw;
+  }
+}
+
+@media screen and (max-height: 710px) {
+  .projectsCard{
+    height: 83vh;
   }
 }
 
@@ -216,7 +218,7 @@ a{
     display: none;
   }
 
-  .aboutCard, .projectCard{
+  .aboutCard, .projectsCard{
     margin-top: 16vh;
   }
 }

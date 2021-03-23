@@ -32,10 +32,6 @@ class Nav extends Component {
             <Link to="/projects">Projects</Link>
           </Menu.Item>
 
-          <Menu.Item active={path === '/socials'}>
-            <Link to="/socials">Socials</Link>
-          </Menu.Item>
-
           <Menu.Item active={path === '/contact'}>
             <Link to='/contact'>Contact</Link>
           </Menu.Item>
