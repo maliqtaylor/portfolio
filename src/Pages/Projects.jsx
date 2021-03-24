@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Card from 'react-bootstrap/Card'
-import { Image } from 'semantic-ui-react'
+import { Image, Icon } from 'semantic-ui-react'
 import tetris from '../images/tetris.png'
 import watchlist from '../images/watchlist.png'
 import flock from '../images/flock.png'
@@ -19,14 +19,16 @@ function Projects() {
 
           <Card.Body>
             <Card className='project' border='primary'>
-              <a
-                className='pointer'
-                rel='noreferrer'
-                target="_blank"
-                href="https://tetris-dom-project.surge.sh/"
-              >
-                <Card.Title className='cardTitle'>Tetris</Card.Title>
-              </a>
+              <Card.Title className='cardTitle'>
+                <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://tetris-dom-project.surge.sh/"
+                >
+                  Tetris
+              </a> | <Icon name='git' size='small' link={true} />
+              </Card.Title>
               <Image
                 src={tetris}
                 size='huge'
@@ -39,16 +41,16 @@ function Projects() {
             </Card>
 
             <Card className='project' border='primary'>
-              <a
-                className='pointer'
-                rel='noreferrer'
-                target="_blank"
-                href="https://anime-watchlist.herokuapp.com/"
-              >
-                <Card.Title className='cardTitle'>
+              <Card.Title className='cardTitle'>
+                <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://anime-watchlist.herokuapp.com/"
+                >
                   Anime Watchlist
+              </a> | <Icon name='git' size='small' />
               </Card.Title>
-              </a>
 
               <Image
                 src={watchlist}
@@ -62,14 +64,26 @@ function Projects() {
             </Card>
 
             <Card className='project' border='primary'>
-              <a
-                className='pointer'
-                rel='noreferrer'
-                target="_blank"
-                href="https://wryters-flock.herokuapp.com/"
-              >
-                <Card.Title className='cardTitle'>Wryters Flock</Card.Title>
-              </a>
+              <Card.Title className='cardTitle'>
+                <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://wryters-flock.herokuapp.com/"
+                >
+                  Wryters Flock 
+              </a> |
+              
+                 <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://github.com/maliqtaylor/wryters-flock"
+                >
+                  {' '}<Icon name='git' size='small' />
+                </a>
+              </Card.Title>
+
 
               <Image
                 src={flock}
@@ -86,7 +100,7 @@ function Projects() {
           </Card.Body>
         </Card>
 
-        <Footer left='/about' right='/socials' />
+        <Footer left='/about' right='/contact' />
       </div>
     </div>
   );

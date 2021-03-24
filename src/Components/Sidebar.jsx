@@ -19,10 +19,6 @@ class Sidebar extends Component {
             Projects
           </a>
 
-          <a className="menu-item" href="/socials">
-            Socials
-          </a>
-
           <a className="menu-item" href="/contact">
             Contact
           </a>

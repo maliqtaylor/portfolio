@@ -243,6 +243,10 @@ a{
   .name{
     font-size:2em
   }
+
+  .cardTitle{
+    font-size: 1.4em;
+  }
 }
 
 @media screen and (max-width: 280px) {
