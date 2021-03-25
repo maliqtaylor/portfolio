@@ -27,7 +27,17 @@ function Projects() {
                   href="https://tetris-dom-project.surge.sh/"
                 >
                   Tetris
-              </a> | <Icon name='git' size='small' link={true} />
+              </a> |
+
+               <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://github.com/maliqtaylor/tetris-with-dom"
+                >
+                  {' '}<Icon name='git' size='small' />
+                </a>
+
               </Card.Title>
               <Image
                 src={tetris}
@@ -49,7 +59,15 @@ function Projects() {
                   href="https://anime-watchlist.herokuapp.com/"
                 >
                   Anime Watchlist
-              </a> | <Icon name='git' size='small' />
+              </a> |
+                <a
+                  className='pointer'
+                  rel='noreferrer'
+                  target="_blank"
+                  href="https://github.com/maliqtaylor/anime-watchlist"
+                >
+                  {' '}<Icon name='git' size='small' />
+                </a>
               </Card.Title>
 
               <Image
@@ -71,9 +89,9 @@ function Projects() {
                   target="_blank"
                   href="https://wryters-flock.herokuapp.com/"
                 >
-                  Wryters Flock 
+                  Wryters Flock
               </a> |
-              
+
                  <a
                   className='pointer'
                   rel='noreferrer'
