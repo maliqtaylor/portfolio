@@ -35,7 +35,7 @@ class Footer extends Component {
           <Menu.Item>
             <Icon
               className='pointer'
-              name='address card outline'
+              name='file alternate outline'
               size='large'
             />
           </Menu.Item>
