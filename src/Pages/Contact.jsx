@@ -8,7 +8,7 @@ function Contact() {
   if (state.succeeded) {
     return (
       <div className='success'>
-        <h3>Thank you for reaching out!</h3>
+        <h3>Thank you for reaching out !</h3>
         <Footer left='/projects' />
       </div>
     )

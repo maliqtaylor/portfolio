@@ -59,7 +59,6 @@ a{
 }
 
 .cardTitle{
-  padding-top: 1vh;
   font-weight: bold;
   font-size: 2em;
 }
@@ -211,9 +210,14 @@ a{
     margin-bottom: 5vh;
   }
 
-   .skills{
-     margin-top: 5vh;
-   }
+  .skills{
+    margin-top: 5vh;
+  }
+
+  .form{
+    margin-top: 23vh;
+  }
+  
 }
 
 @media screen and (max-height: 670px) {
@@ -245,6 +249,25 @@ a{
     height: 40vh;
     width: 98vw;
   }
+
+  .contactHeader{
+    margin-top: 7vh;
+  }
+
+  .form{
+    margin-top: 8vh;
+  }
+
+  #message{
+    max-height: 60px;
+    min-height: 60px;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .form{
+    margin-top: 8vh;
+  }
 }
 
 @media screen and (max-height: 710px) {
@@ -262,6 +285,12 @@ a{
     margin-top: 16vh;
   }
 }
+
+/* @media screen and (max-height: 585px) {
+.projectsCard{
+    margin-top: 10vh;
+  }
+} */
 
  @media screen and (max-width: 1400px) {
   .aboutCard{
