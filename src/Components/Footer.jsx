@@ -61,11 +61,13 @@ class Footer extends Component {
           </Menu.Item>
 
           <Menu.Item>
-            <Icon
-              className='pointer'
-              name='envelope open outline'
-              size='large'
-            />
+            <a href="mailto:maliq.taylor@icloud.com?subject=Let's get in contact!&amp;body=Hello Maliq,">
+              <Icon
+                className='pointer'
+                name='envelope open outline'
+                size='large'
+              />
+            </a>
           </Menu.Item>
 
           <Menu.Item disabled={left === undefined}>
