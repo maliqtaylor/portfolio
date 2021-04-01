@@ -8,6 +8,10 @@ h3, h1{
   font-family: 'Jura', sans-serif;  
 }
 
+h1{
+  padding-top: 3.5vh;
+}
+
 a:hover{
   text-decoration: none;
 }
