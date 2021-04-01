@@ -49,7 +49,7 @@ function ProjectCard() {
               >
                 Github
               </a>
-
+                |
               <a
                 className='pointer live'
                 rel='noreferrer'
