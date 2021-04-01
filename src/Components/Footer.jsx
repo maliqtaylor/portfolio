@@ -61,7 +61,7 @@ class Footer extends Component {
           </Menu.Item>
 
           <Menu.Item>
-            <a href="mailto:maliq.taylor@icloud.com?subject=Let's get in contact!&amp;body=Hello Maliq,">
+            <a href="mailto:maliq.taylor@icloud.com?subject=Let's connect !&amp;body=Hello Maliq,">
               <Icon
                 className='pointer'
                 name='envelope open outline'

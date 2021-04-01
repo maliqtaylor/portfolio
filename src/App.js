@@ -4,6 +4,7 @@ import Sidebar from './Components/Sidebar'
 import Home from './Pages/Home'
 import About from './Pages/About'
 import Projects from './Pages/Projects'
+import Contact from './Pages/Contact'
 import { Route } from "react-router-dom"
 import 'semantic-ui-css/semantic.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -14,8 +15,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Nav 
-          path= {this.props.history.location.pathname}
+        <Nav
+          path={this.props.history.location.pathname}
         />
 
         <Sidebar
@@ -44,6 +45,14 @@ class App extends Component {
           path="/projects"
           render={({ history }) => (
             <Projects history={history} />
+          )}
+        />
+
+        <Route
+          exact
+          path="/contact"
+          render={({ history }) => (
+            <Contact history={history} />
           )}
         />
 
