@@ -23,8 +23,8 @@ function AboutCard() {
           <br />
           <br />
 
-               Beyond technology, my hobbies & interests include.... reading and writing are passions of mine. There's nothing quite like geting lost in a good book and I aspire to one day be a published author.
-            </Card.Text>
+          Beyond technology, my hobbies & interests include literature, astronomy, travel and sports. Reading and writing are distinct passions of mine. There's nothing quite like geting lost in a good book and I aspire to one day be a published author.
+        </Card.Text>
       </Card.Body>
 
     </Card>
