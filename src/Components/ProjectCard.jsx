@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image } from 'semantic-ui-react'
+import { Image, Container } from 'semantic-ui-react'
 import Card from 'react-bootstrap/Card'
 import tetris from '../images/tetris.png'
 import watchlist from '../images/watchlist.png'
@@ -32,7 +32,7 @@ const projects = [
 
 function ProjectCard() {
   return (
-    <>
+    <Container>
       {
         projects.map((proj, i) =>
           <Card className='project' border='primary' key={i}>
@@ -75,7 +75,7 @@ function ProjectCard() {
           </Card>
         )
       }
-    </>
+    </Container>
   );
 }
 

@@ -302,7 +302,7 @@ a{
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   .aboutCard{
     height: 55vh;
   }
