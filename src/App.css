@@ -46,7 +46,6 @@ a{
 .contact{
   margin-left: 10vw;
   margin-right: 10vw;
-  max-height: 60vh;
   font-family: 'Jura', sans-serif; 
 }
 
@@ -65,7 +64,7 @@ a{
 
 .aboutCard{
   width: 65vw;
-  height: 55vh;
+  height: 45vh;
   margin-left:auto; 
   margin-right: auto;
   margin-top: 10vh;
@@ -246,7 +245,7 @@ a{
 
 @media screen and (max-height: 630px) {
   .aboutCard{
-    height: 40vh;
+    height: 35vh;
     width: 98vw;
   }
 
