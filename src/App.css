@@ -64,7 +64,7 @@ a{
 
 .aboutCard{
   width: 65vw;
-  height: 45vh;
+  height: 55vh;
   margin-left:auto; 
   margin-right: auto;
   margin-top: 10vh;
@@ -74,7 +74,6 @@ a{
 
 .projectsCard{
   width: 98vw;
-  height: 85vh;
   margin-left:auto; 
   margin-right: auto;
   margin-top: 8vh;
@@ -219,6 +218,12 @@ a{
   
 }
 
+@media screen and (max-height: 710px) {
+  .projectsCard{
+    height: 83vh;
+  }
+}
+
 @media screen and (max-height: 670px) {
   .skills{
     margin-top: 1vh;
@@ -229,23 +234,15 @@ a{
   }
 }
 
-@media screen and (max-height: 570px) {
-  .nav{
-    display: none;
-  }
-
-  .sidenav{
-    display: block;
-  }
-
-  .aboutCard{
-    margin-top: 13vh;
+@media screen and (max-height: 640px) {
+  .form{
+    margin-top: 8vh;
   }
 }
 
 @media screen and (max-height: 630px) {
   .aboutCard{
-    height: 35vh;
+    height: 40vh;
     width: 98vw;
   }
 
@@ -263,15 +260,17 @@ a{
   }
 }
 
-@media screen and (max-height: 640px) {
-  .form{
-    margin-top: 8vh;
+@media screen and (max-height: 570px) {
+  .nav{
+    display: none;
   }
-}
 
-@media screen and (max-height: 710px) {
-  .projectsCard{
-    height: 83vh;
+  .sidenav{
+    display: block;
+  }
+
+  .aboutCard{
+    margin-top: 13vh;
   }
 }
 
@@ -314,6 +313,18 @@ a{
 
   .cardTitle{
     font-size: 1.4em;
+  }
+
+  .aboutCard{
+    height: 45vh;
+  }
+
+  .title{
+    margin-top: 35vh;
+  }
+
+  .projectsCard{
+      height: 75vh;
   }
 }
 
