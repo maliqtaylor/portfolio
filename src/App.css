@@ -74,7 +74,7 @@ a{
 
 .projectsCard{
   width: 98vw;
-  height: 65vh;
+  height: 68vh;
   margin-left:auto; 
   margin-right: auto;
   margin-top: 8vh;
@@ -285,11 +285,6 @@ a{
   }
 }
 
-/* @media screen and (max-height: 585px) {
-.projectsCard{
-    margin-top: 10vh;
-  }
-} */
 
  @media screen and (max-width: 1400px) {
   .aboutCard{
@@ -307,6 +302,15 @@ a{
   }
 }
 
+@media screen and (min-width: 600px) {
+  .aboutCard{
+    height: 55vh;
+  }
+
+  .projectsCard{
+    height: 85vh;
+  }
+}
 @media screen and (max-width: 375px) {
   .name{
     font-size:2em
