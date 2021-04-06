@@ -63,7 +63,6 @@ function Contact() {
             </Form.Button>
           </Form>
         </div>
-        <Footer left='/projects' />
       </div>
     </div>
   );
