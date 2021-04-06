@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Components/Footer'
 import { Form, Icon } from 'semantic-ui-react'
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -8,8 +7,9 @@ function Contact() {
   if (state.succeeded) {
     return (
       <div className='success'>
+        <div id='page-wrap'>
         <h3>Thank you for reaching out !</h3>
-        <Footer left='/projects' />
+        </div>
       </div>
     )
   }

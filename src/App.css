@@ -311,6 +311,10 @@ a{
   .aboutCard{
     height: 45vh;
   }
+
+  .projectsCard{
+    height: 75vh;
+  }
 }
 
 @media screen and (max-width: 280px) {
