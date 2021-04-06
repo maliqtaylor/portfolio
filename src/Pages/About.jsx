@@ -19,9 +19,6 @@ function About() {
         <h3>Skills</h3>
 
         <Skills />
-
-
-        <Footer left='/' right='/projects' />
       </div>
     </div>
   );
