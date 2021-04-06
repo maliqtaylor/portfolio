@@ -59,7 +59,7 @@ function Contact() {
 
             <Form.Button disabled={state.submitting}>
               Send
-        <Icon className='send' name='paper plane outline' />
+              <Icon className='send' name='paper plane outline' />
             </Form.Button>
           </Form>
         </div>

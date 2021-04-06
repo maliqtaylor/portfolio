@@ -299,13 +299,17 @@ a{
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .name{
     font-size:2em
   }
 
   .cardTitle{
     font-size: 1.4em;
+  }
+
+  .aboutCard{
+    height: 45vh;
   }
 }
 
