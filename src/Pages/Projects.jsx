@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Components/Footer'
 import ProjectCard from '../Components/ProjectCard'
 import Card from 'react-bootstrap/Card'
 

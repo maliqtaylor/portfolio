@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../Components/Footer'
 import { Divider, Icon } from 'semantic-ui-react'
 import AboutCard from '../Components/AboutCard'
 import Skills from '../Components/Skills'
