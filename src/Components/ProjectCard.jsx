@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Container } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
 import Card from 'react-bootstrap/Card'
 import tetris from '../images/tetris.png'
 import watchlist from '../images/watchlist.png'
@@ -32,53 +32,50 @@ const projects = [
 
 function ProjectCard() {
   return (
-    <Container>
+    <>
       {
         projects.map((proj, i) =>
-          <Container>
-            <Card className='project' border='primary' key={i}>
-              <Card.Title className='cardTitle'>
-                {proj.title}
-                <br />
+          <Card className='project' border='primary' key={i}>
+            <Card.Title className='cardTitle'>
+              {proj.title}
+              <br />
 
-                <a
-                  className='pointer hub'
-                  rel='noreferrer'
-                  target="_blank"
-                  href={proj.github}
-                  style={{ fontSize: 'medium' }}
-                >
-                  Github
+              <a
+                className='pointer hub'
+                rel='noreferrer'
+                target="_blank"
+                href={proj.github}
+                style={{ fontSize: 'medium' }}
+              >
+                Github
               </a>
                 |
               <a
-                  className='pointer live'
-                  rel='noreferrer'
-                  target="_blank"
-                  href={proj.live}
-                  style={{ fontSize: 'medium' }}
-                >
-                  Live
+                className='pointer live'
+                rel='noreferrer'
+                target="_blank"
+                href={proj.live}
+                style={{ fontSize: 'medium' }}
+              >
+                Live
               </a>
 
-              </Card.Title>
+            </Card.Title>
 
-              <Card.Body>
-                <Image
-                  src={proj.img}
-                  size='huge'
-                  verticalAlign='middle'
-                  bordered={true}
-                />
-                <br/>
+            <Image
+              src={proj.img}
+              size='huge'
+              verticalAlign='middle'
+              bordered={true}
+            />
 
-                {proj.desc}
-              </Card.Body>
-            </Card>
-          </Container>
+            <Card.Body>
+              {proj.desc}
+            </Card.Body>
+          </Card>
         )
       }
-    </Container>
+    </>
   );
 }
 
