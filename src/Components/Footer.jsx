@@ -14,11 +14,13 @@ class Footer extends Component {
           className='footer'
         >
           <Menu.Item>
-            <Icon
-              className='pointer'
-              name='file alternate outline'
-              size='large'
-            />
+            <a rel='noreferrer' target="_blank" href="https://drive.google.com/file/d/1-fjKNNb-6tiFwskC0hF-zqpivY6aMdOZ/view?usp=sharing">
+              <Icon
+                className='pointer'
+                name='file alternate outline'
+                size='large'
+              />
+            </a>
           </Menu.Item>
 
           <Menu.Item>
@@ -49,7 +51,7 @@ class Footer extends Component {
                 size='large'
               />
             </a>
-          </Menu.Item> 
+          </Menu.Item>
         </Menu>
       </div>
     );
