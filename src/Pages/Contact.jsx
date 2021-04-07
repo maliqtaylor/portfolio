@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import { Form, Icon } from 'semantic-ui-react'
 import { useForm, ValidationError } from '@formspree/react';
 
@@ -8,7 +9,8 @@ function Contact() {
     return (
       <div className='success'>
         <div id='page-wrap'>
-        <h3>Thank you for reaching out !</h3>
+          <h3>Thank you for reaching out !</h3>
+          <Link to="/">Home</Link>
         </div>
       </div>
     )
