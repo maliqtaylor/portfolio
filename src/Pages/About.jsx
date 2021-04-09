@@ -3,7 +3,6 @@ import { Divider, Icon } from 'semantic-ui-react'
 import AboutCard from '../Components/AboutCard'
 import Skills from '../Components/Skills'
 
-
 function About() {
   return (
     <div className='about'>
