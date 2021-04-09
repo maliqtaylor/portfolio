@@ -2,7 +2,6 @@ import React from 'react'
 import Typical from 'react-typical'
 import { Container } from 'semantic-ui-react'
 
-
 function Title() {
   return (
     <div className='title'>
