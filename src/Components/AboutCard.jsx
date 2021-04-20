@@ -23,7 +23,7 @@ function AboutCard() {
           <br />
           <br />
 
-          Beyond technology, my hobbies & interests include literature, astronomy, travel and sports. Reading and writing are distinct passions of mine. There's nothing quite like taking a deep dive into a thoughtfully crafted narrative and I aspire to one day be a published author and entertain others with my writing & imagination.
+          Beyond technology, my hobbies & interests include literature, astronomy, travel and sports. Reading and writing are distinct passions of mine. There's nothing quite like taking a deep dive into a thoughtfully crafted narrative and I aspire to one day be a published author and entertain people with my writing & imagination.
         </Card.Text>
       </Card.Body>
 
