@@ -14,7 +14,7 @@ class Footer extends Component {
           className='footer'
         >
           <Menu.Item>
-            <a rel='noreferrer' target="_blank" href="https://drive.google.com/file/d/1IScNhQO5ZjFC48OfLhdcW6IC1nsU33gr/view?usp=sharing">
+            <a rel='noreferrer' target="_blank" href="https://docs.google.com/document/d/1BjNWE51t40FBR1egV85ddwMJoaJhQEGP9WYEeql8sTM/edit?usp=sharing">
               <Icon
                 className='pointer'
                 name='file alternate outline'
