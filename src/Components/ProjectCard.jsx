@@ -2,8 +2,6 @@ import React from 'react';
 import { Image } from 'semantic-ui-react'
 import Card from 'react-bootstrap/Card'
 import tetris from '../images/tetris.png'
-import watchlist from '../images/watchlist.png'
-import flock from '../images/flock.png'
 
 const projects = [
   {
@@ -13,20 +11,6 @@ const projects = [
     live: "https://tetris-dom-project.surge.sh/",
     desc: 'A recreation of Tetris using JavaScript CSS and HTML DOM manipulation.'
   },
-  {
-    title: 'Anime Watchlist',
-    img: watchlist,
-    github: "https://github.com/maliqtaylor/anime-watchlist",
-    live: "https://anime-watchlist.herokuapp.com/",
-    desc: 'A full-stack web application designed for users to catalogue their favorite Anime shows and movies.'
-  },
-  {
-    title: 'Wryters Flock',
-    img: flock,
-    github: "https://github.com/maliqtaylor/wryters-flock",
-    live: "https://wryters-flock.herokuapp.com/",
-    desc: 'A full-stack React web application built for writers to post creative writing pieces and get feedback.'
-  }
 ]
 
 
